@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import lax from 'lax.js'
 
 function App() {
+
   window.onload = function() {
     lax.setup() // init
   
@@ -12,6 +14,7 @@ function App() {
   
     window.requestAnimationFrame(updateLax)
   }
+  
   
   return (
     <div className="App">
