@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Nunito+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: #78c182;
+    border: 0;
+    outline: 0;
+    position: relative;
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+height: 100vh;
+overflow: hidden;
+scroll-behavior: smooth;
+}
+
+.container> h1{
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    left: 26%;
+    top:24%;
+    z-index: 7;
+    font-size: 40px;
+   color: #101110;
+   text-shadow: rgba(11,11,13,0.9);
+}
+.sky{
+    z-index: 5;
+    position: absolute;
+    height: 80%;
+    background: url(https://i.ibb.co/k0r241B/Sixth.png);
+    /* background-repeat: repeat-y; */
+    top: 0;
+    width: auto;
+    filter: brightness(0.8);
+    filter: blur(19);
+}
+
+.first{
+ position: absolute;
+  z-index: 20;
+  bottom: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.boy{
+    z-index: 19;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    filter:contrast(1.111);
+}
+
+.third{
+    z-index: 18;
+    position: absolute;
+    bottom: 1px;
+}
+
+.fourth{
+    z-index: 7;
+    position: absolute;
+    bottom: 55px;
+    filter: contrast(1);
+}
+
+.fourth1{
+    z-index: 7;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    filter:saturate(1);
+}
+
+.moon{
+    z-index: 6;
+    position: absolute;
+    right: 20px;
+    top:3em;
+}
+
+.content{
+    position: relative;
+    border: 0;
+    outline: 0;
+    height: 90vh;
+    top:-20px;
+    display: flex;
+    flex-direction: column;
+   
+    background: linear-gradient(0deg,#78c182,RGB(2, 22, 20));
+    z-index: 30;
+    border:0;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+
+.content> img{
+    padding: 1em;
+    object-fit: contain;
+    height: 50vh;
+    object-fit: contain;
+    filter: contrast(1.5);
+    
+}
+
+
+/* .text{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} */
+
+.text{
+    font-size: 16px;
+    position: fixed;
+    background: #00000042;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.37);
+    color: #eaf0eb;
+    margin: 1em;
+    padding: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.text> h2{
+    margin-top: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.text>p{
+    margin-top: 1.5em;
+    
+}
+
+.text > h3{
+    margin-top: 1em ;
+    text-align: end;
+}
+
+.panda{
+    animation: MoveUpDown 3s linear infinite;
+    position: absolute;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
