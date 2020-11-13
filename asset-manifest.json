@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Diwali/static/css/main.90168cc5.chunk.css",
+    "main.js": "/Diwali/static/js/main.74e62b58.chunk.js",
+    "main.js.map": "/Diwali/static/js/main.74e62b58.chunk.js.map",
+    "runtime-main.js": "/Diwali/static/js/runtime-main.3b2a2aee.js",
+    "runtime-main.js.map": "/Diwali/static/js/runtime-main.3b2a2aee.js.map",
+    "static/js/2.7989d126.chunk.js": "/Diwali/static/js/2.7989d126.chunk.js",
+    "static/js/2.7989d126.chunk.js.map": "/Diwali/static/js/2.7989d126.chunk.js.map",
+    "index.html": "/Diwali/index.html",
+    "static/css/main.90168cc5.chunk.css.map": "/Diwali/static/css/main.90168cc5.chunk.css.map",
+    "static/js/2.7989d126.chunk.js.LICENSE.txt": "/Diwali/static/js/2.7989d126.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b2a2aee.js",
+    "static/js/2.7989d126.chunk.js",
+    "static/css/main.90168cc5.chunk.css",
+    "static/js/main.74e62b58.chunk.js"
+  ]
+}
